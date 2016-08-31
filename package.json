@@ -1,0 +1,17 @@
+{
+  "name": "sort",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp js",
+    "test": "node dist/app.js"
+  },
+  "author": "pengyic",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
+}
