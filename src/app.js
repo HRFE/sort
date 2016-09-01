@@ -12,7 +12,7 @@ import Heap from './heap.js';
 var arr = [8, 1, 4, 3, 9, 6, 7, 0, 5, 2];
 //var arr = ['C', 'E', 'A', 'G', 'B', 'D', 'H', 'F'];
 
-var mySort = new Quick(arr);
+var mySort = new Heap(arr);
 
 console.log('Before sort:');
 mySort.show();
